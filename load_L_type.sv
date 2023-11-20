@@ -26,12 +26,11 @@ package LoadPackage;
             LW:  return drdata;
             LBU: return {24'b0, drdata[offset +: 8]};
             LHU: return {16'b0, drdata[offset +: 16]};
-            default: return 32'b0; // Default case for unknown operation
+            default: return 32'b0; // Default case 
         endcase
     endfunction
 endpackage
 
-// Module for Load instructions
 module L_type(
     input logic [31:0] instr,
     input logic [31:0] daddr,
