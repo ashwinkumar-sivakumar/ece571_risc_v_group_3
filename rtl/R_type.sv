@@ -2,19 +2,19 @@
 
 //R type instructions
 module R_type(
-    input [31:0] instr,
-    input signed [31:0] in1,
-    input signed [31:0] in2,
-    output reg[31:0] out
+    input logic [31:0] instr,
+    input logic signed [31:0] in1,
+    input logic signed [31:0] in2,
+    output logic reg[31:0] out
 );
     wire [31:0] tmp1;
     wire [31:0] tmp2;
     assign tmp1 = in1;
     assign tmp2 = in2;
 
-    always @(instr or in1 or in2) 
+    always_comb
     begin
-    	case({instr[30],instr[14:12]})
+    	unique case({instr[30],instr[14:12]})
         4'b0000:    out = in1+in2;          //add
         4'b1000:    out = in1-in2;          //sub
         4'b0001:    out = in1<<in2[4:0];	  //sll
@@ -27,4 +27,4 @@ module R_type(
         4'b0111:    out = in1&in2;          //and
         endcase
     end
-endmodule
+endmodule:R_type
