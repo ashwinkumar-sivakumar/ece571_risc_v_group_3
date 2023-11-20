@@ -7,7 +7,7 @@
 //***************************************************//
 module tb_L_type;
     logic [31:0] instr, daddr, drdata;
-    wire [31:0] out;
+    logic [31:0] out;
 
     initial begin
         // Initialize inputs
