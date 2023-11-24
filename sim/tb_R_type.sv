@@ -1,22 +1,23 @@
 `timescale 1ns / 1ps
-
-//R type instructions
+//`include "intf.sv"
+ 
+//R type r_if.instructions
 module tb_R_type;
-    logic[31:0] instr;
-    logic signed [31:0] in1;
-    logic signed [31:0] in2;
-    logic [31:0] out;
-R_type r_type (.*);
+
+
+intf r_if();
+    
+R_type dut (.*);
     initial begin 
-     instr =32'b01;
-     in1 =32'b01;
-     in2 = 32'b01;
+     r_if.instr =32'b01;
+     r_if.in1 =32'b01;
+     r_if.in2 = 32'b01;
 #10;
-     instr =32'b10;
-     in1 =32'b10;
-     in2 = 32'b10;
+     r_if.instr =32'b10;
+     r_if.in1 =32'b10;
+     r_if.in2 = 32'b10;
 end
 always_comb
-$monitor(" instr =%d ,in1 =%d, in2 =%d, out=%d",instr,in1,in2,out);
+$monitor(" r_if.instr =%d ,r_if.in1 =%d, r_if.in2 =%d, r_if.out=%d",r_if.instr,r_if.in1,r_if.in2,r_if.out);
 
 endmodule
