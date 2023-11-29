@@ -10,7 +10,7 @@ endpackage
 module S_type(
     input [31:0] instr,
     input [31:0] daddr,
-    output reg [3:0] we
+    output logic [3:0] we
 );
     import STypePackage::*;
 
