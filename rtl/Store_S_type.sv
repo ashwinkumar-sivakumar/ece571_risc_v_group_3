@@ -1,4 +1,3 @@
-// Define a package with the required constants
 package STypePackage;
     typedef enum logic [3:0] {
         SB = 4'b0001,
@@ -7,7 +6,7 @@ package STypePackage;
     } STypeWE;
 endpackage
 
-// Import the package in the module
+// Importing the package
 module S_type(
     input [31:0] instr,
     input [31:0] daddr,
@@ -20,7 +19,7 @@ module S_type(
             3'b000: we = SB << daddr[1:0];
             3'b001: we = SH << daddr[1:0];
             3'b010: we = SW;
-            default: we = 4'b0; // Default case, can be adjusted based on requirements
+            default: we = 4'b0; // Default case
         endcase
     end
 endmodule
