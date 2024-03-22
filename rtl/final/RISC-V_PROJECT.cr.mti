@@ -1,0 +1,100 @@
+C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/control_unit.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/control_unit.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+** Warning: C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/control_unit.sv(7): (vlog-13233) 'control_unit_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+
+-- Compiling package control_unit_sv_unit
+-- Importing package parameters
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/register_file.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/register_file.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package register_file_sv_unit
+-- Importing package parameters
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/definitions.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/definitions.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package parameters
+
+Top level modules:
+	--none--
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/data_mem.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/data_mem.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package data_mem_sv_unit
+-- Importing package parameters
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_S.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_S.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package type_S_sv_unit
+-- Importing package parameters
+-- Compiling module S_type
+
+Top level modules:
+	S_type
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_L.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_L.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package type_L_sv_unit
+-- Importing package parameters
+-- Compiling module L_type
+
+Top level modules:
+	L_type
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_I.sv {2 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_I.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+** Warning: C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_I.sv(6): (vlog-13233) 'type_I_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+
+-- Compiling package type_I_sv_unit
+-- Importing package parameters
+-- Compiling module I_type
+
+Top level modules:
+	I_type
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/instr_mem.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/instr_mem.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package instr_mem_sv_unit
+-- Importing package parameters
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_R.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_R.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package type_R_sv_unit
+-- Importing package parameters
+-- Compiling module R_type
+
+Top level modules:
+	R_type
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_B.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/type_B.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling package type_B_sv_unit
+-- Importing package parameters
+-- Compiling module B_type
+
+Top level modules:
+	B_type
+
+} {} {}} C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/test_CPU.sv {1 {vlog -work work -vopt -sv -stats=none C:/questasim64_10.4e/examples/AAMV_FINAL_SV_PROJECT/test_CPU.sv
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module tb_CPU
+
+Top level modules:
+	tb_CPU
+
+} {} {}}

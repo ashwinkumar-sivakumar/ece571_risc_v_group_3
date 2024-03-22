@@ -1,0 +1,6 @@
+
+vlog control_unit.sv data_mem.sv definitions.sv instr_mem.sv register_file.sv test_CPU.sv type_B.sv type_I.sv type_L.sv type_R.sv type_S.sv 
+vsim -c  work.tb_CPU -voptargs=+acc -do "run -all"
+add wave -r /*
+
+
